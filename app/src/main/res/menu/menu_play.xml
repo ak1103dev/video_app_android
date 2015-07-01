@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ml.research27.myappha.PlayActivity">
+
+    <item android:id="@+id/action_switch_camera"
+        android:title="@string/switch_camera"
+        android:icon="@mipmap/ic_action_switch_camera"
+        android:showAsAction="ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_list_effects"
+        android:title="@string/effects"
+        android:icon="@mipmap/ic_action_picture"
+        android:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/action_toggle_parameters"
+        android:title="@string/toggle_parameters"
+        android:icon="@mipmap/ic_action_settings"
+        android:showAsAction="ifRoom|withText"
+        android:enabled="false"/>
+
+    <item android:id="@+id/action_save_frame"
+        android:title="@string/save_frame"
+        android:icon="@mipmap/ic_action_save"
+        android:showAsAction="ifRoom|withText"></item>
+
+</menu>
